@@ -1,0 +1,24 @@
+{
+   "name": "firstproject",
+   "version": "1.0.0",
+   "description": "",
+   "source": "src/index.html",
+   "scripts": {
+      "start": "parcel",
+      "build": "parcel build"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NikitaProshyn/FirstProject.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/NikitaProshyn/FirstProject/issues"
+   },
+   "homepage": "https://github.com/NikitaProshyn/FirstProject#readme",
+   "devDependencies": {
+      "@parcel/transformer-sass": "^2.4.1",
+      "parcel": "^2.4.1"
+   }
+}
