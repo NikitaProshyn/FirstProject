@@ -1,0 +1,65 @@
+.start {
+   padding: 159px 0 114px;
+}
+
+.start_info {
+   text-align: center;
+
+   .start_info_title {
+      font-size: $_30px;
+      font-weight: 500;
+      font-family: 'Raleway', sans-serif;
+      color: #000000;
+
+      margin-bottom: 15px;
+   }
+
+   .start_info_text {
+      font-size: $_18px;
+      font-weight: 700;
+      font-family: 'Raleway', sans-serif;
+      color: #000000;
+   }
+}
+
+.start_btn {
+   max-width: 369px;
+   margin: 90px auto 0px;
+   text-align: center;
+   background-color: #ff4343;
+   padding: 20px 50px;
+   cursor: pointer;
+   transition: 0.3s;
+
+   animation-name: start_btn;
+   animation-duration: 1.5s;
+   animation-iteration-count: infinite;
+
+   &:hover {
+      background-color: #e71414;
+      animation: none;
+   }
+
+   &:active {
+      background-color: #ff4343;
+      box-shadow: 4px 4px 30px #ff4343;
+      transition: 0.03s;
+      transform: scale(1.1);
+   }
+
+   @keyframes start_btn {
+      0% {
+         transform: scale(1);
+      }
+      50% {
+         transform: scale(1.1);
+      }
+   }
+
+   a {
+      font-size: $_24px;
+      font-weight: 900;
+      font-family: 'Raleway', sans-serif;
+      color: #fff;
+   }
+}

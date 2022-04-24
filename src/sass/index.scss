@@ -1,9 +1,10 @@
 @import 'cdn.scss';
 @import './variables/fz.scss';
 @import './sections/header.scss';
-@import './advantage.scss';
-@import './portfolio.scss';
-@import './team.scss';
+@import './sections/advantage.scss';
+@import './sections/portfolio.scss';
+@import './sections/team.scss';
+@import './sections/start.scss';
 
 * {
    padding: 0;
